@@ -15,6 +15,10 @@
       .mb-15 {
         margin-bottom: 20vh;
       }
+
+      .project {
+        background-color: #212c40;
+      }
     </style>
   </head>
   <body>
@@ -62,9 +66,47 @@
       <article style="margin-top: 10vh" class="mb-15" id="projects">
         <h2>Projects</h2>
         <div>
-          <article>test</article>
-          <article>test</article>
-          <article>test</article>
+          <article class="project">
+            <h3>Counter app</h3>
+            <p>
+              <b>Description: </b>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+              corrupti ad, asperiores error necessitatibus soluta!
+            </p>
+            <img src="./counterApp.png" width="400" />
+            <p><b>Technologies: </b> React, PicoCSS</p>
+            <div style="display: flex; gap: 10px">
+              <a
+                target="_blank"
+                href="https://simon125.github.io/vite-react-deploy/"
+                >Live preview</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/simon125/vite-react-deploy"
+                >Github repository</a
+              >
+            </div>
+          </article>
+          <article class="project">
+            <h3>Todo app</h3>
+            <p>
+              <b>Description: </b>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+              corrupti ad, asperiores error necessitatibus soluta!
+            </p>
+            <img src="./reactTodoApp.png" width="400" />
+            <p><b>Technologies: </b> React, CSS</p>
+            <div style="display: flex; gap: 10px">
+              <a target="_blank" href="https://simon125.github.io/cra-depl/"
+                >Live preview</a
+              >
+              <a target="_blank" href="https://github.com/simon125/cra-depl"
+                >Github repository</a
+              >
+            </div>
+          </article>
+          <article class="project">test</article>
         </div>
       </article>
       <article class="mb-15" id="technologies">
@@ -78,7 +120,7 @@
           <li>GIT <img src="./git.png" alt="" /></li>
         </ul>
       </article>
-      <article id="Contact">
+      <article id="contact">
         <h2>Contact</h2>
         <p>
           If you are are looking for the professional FE dev don't hesitate and
@@ -86,7 +128,7 @@
         </p>
         <input type="email" placeholder="Email" />
         <input type="text" placeholder="Title" />
-        <textarea placeholder="Email" rows="10"></textarea>
+        <textarea placeholder="Content" rows="10"></textarea>
         <button style="width: 100%">Send</button>
       </article>
     </main>
